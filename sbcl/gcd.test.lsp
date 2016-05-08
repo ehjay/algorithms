@@ -1,11 +1,3 @@
-(define-test assert-true
-    "t is true"
-    (assert-true nil))
-
-(define-test assert-true2
-    "1 is true"
-    (assert-true 1))
-
-(define-test assert-false
-    "nil is false"
-    (assert-false nil))
+(define-test my-gcd-1
+    "my-gcd of 24 and 18 is 6"
+    (assert-equal (my-gcd 24 18) 6))
